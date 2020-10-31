@@ -1,0 +1,13 @@
+
+spring:
+  mvc:
+    view: #定义视图解析器的规则
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+##### 日志配置 ######
+logging:
+  level:
+    root: info
+
+
